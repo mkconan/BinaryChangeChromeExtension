@@ -1,0 +1,19 @@
+{
+  "name": "Fill parameters and wait.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Sample Chrome Extension",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://hogehoge.tk/tool/number.html"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}

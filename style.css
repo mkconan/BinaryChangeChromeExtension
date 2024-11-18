@@ -1,0 +1,41 @@
+#custom-widget {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10000;
+  font-family: Arial, sans-serif;
+}
+
+.custom-input {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.input-table {
+  border-collapse: separate;
+  border-spacing: 20px 10px;
+}
+
+#custom-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: skyblue;
+  color: white;
+  cursor: pointer;
+}
+
+#custom-button:hover {
+  background-color: blue;
+}
